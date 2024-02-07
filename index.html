@@ -1,21 +1,102 @@
 <!doctype html>
 <html>
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ETSK27HVKL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ETSK27HVKL"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-ETSK27HVKL');
-</script>
-<title>JinJu's Bookstore</title>
-<meta charset="utf-8">
+    gtag('config', 'G-ETSK27HVKL');
+    </script>
+    <title>JinJu's Bookstore</title>
+    <meta charset="utf-8">
+    <style>
+        a {
+            color:darkgreen;
+            text-decoration: none;
+        }
+        h1 {
+            border-bottom: 3px seagreen solid;
+            padding:20px;
+            margin:0;
+            font-size:50px;
+            padding-left:30px;
+        }
+        h2{
+            color:darkgreen;
+            margin:0;
+            border-right: 3px seagreen solid;
+        }
+        div{
+            padding-left:20px;
+            padding-top:10px;
+        }
+        #grid0, #grid1, #grid2{
+            display:grid;
+            grid-template-columns: 140px 2fr;
+        }
+        ul{
+            list-style-type: none;
+            padding:20px;
+            margin:0;
+        }
+        li{
+            float:left;
+            padding-right:30px;
+        }
+        @media(max-width:800px){
+            h1{
+                border-bottom:none;
+                font-size:30px;
+            }
+            h2{
+                border-right:2px seagreen solid;
+                font-size:20px;
+            }
+            #grid, #grid2{
+            display:grid;
+            grid-template-columns: 1fr 3fr;
+        }
+        }
+        iframe{
+            padding-left:20px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1><a href="main.html">JinJu's Bookstore</a></h1>
+    <h1><a href="index.html">JinJu's Bookstore</a></h1>
+    <div id="grid0">
+        <h2></h2>
+    <div>
+    <iframe width="703" height="395" src="https://www.youtube.com/embed/Yuw8TnTei58" title="[Playlist]숲 공기🌿가득 마시며 일하기 |업무음악,공부음악,작업음악,집중할때듣는음악,독서음악 |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    </div>
+    <div id="grid1">
+        <h2>추천도서</h2>
+        <div>
+            <ul>
+                <li><a href="1.html">자존감 수업</a>
+                <br><br><img src="book1.jpg" width="100"></li>
+                <li><a href="2.html">7년의 밤</a>
+                <br><br><img src="book2.jpg" width="100"></li>
+                <li><a href="3.html">지적 대화를 위한 넓고 얕은 지식 1</a>
+                <br><br><img src="book3.jpg" width="100"></li>
+            </ul>
+        </div>
+    </div>
+    <div id="grid2">
+        <h2>인기도서</h2>
+        <div><ul>
+            <li>종의 기원</li>
+            <li>데미안</li>
+            <li>오베라는 남자</li>
+        </ul></div>
+    </div>
+<!--
+    <h1><a href="main.html"><font color="red">JinJu's Bookstore</font></a></h1>
 <iframe width="703" height="395" src="https://www.youtube.com/embed/Yuw8TnTei58" title="[Playlist]숲 공기🌿가득 마시며 일하기 |업무음악,공부음악,작업음악,집중할때듣는음악,독서음악 |" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <h2>추천도서</h2>
     <ol>
@@ -33,6 +114,7 @@
         <li>데미안</li>
         <li>오베라는 남자</li>
     </ol>
+-->
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
